@@ -1,48 +1,37 @@
-# Beavy Good
+# Beavy
 
-A clean, incremental rebuild of Beavy: a Romanian grocery budget and basket-planning app.
+Beavy spune cât costă coșul final, nu doar produsul.
 
-## Current scope
+Un preț intră în calcul doar dacă are sursă, canal (raft sau livrare) și momentul observării. Fără aceste trei, prețul nu se afișează ca ofertă.
 
-- Responsive Romanian-language budget planner UI
-- Budget, household size, planning period, food categories and shopping priority
-- No external price feeds, database, authentication or retailer integrations yet
-- The current submit action is a UI prototype only; it does not claim live prices or generate a real basket
+## Reguli
 
-## Stack
+- Doar produse alimentare. Băuturile cu garanție SGR rămân.
+- METRO nu intră în niciun calcul.
+- LaRaft nu este sursă.
+- Promoția se evaluează pe cantitatea cerută. 1+1 nu e avantaj dacă ai nevoie de o bucată.
+- Garanția SGR (0,50 lei/ambalaj) e o linie separată, nu face parte din prețul produsului.
+- Transportul și taxele intră în total. Un coș ieftin pe hârtie poate fi mai scump după livrare.
+- Nu se copiază cod din alte depozite fără licență. Datele publice se citesc prin client propriu.
 
-- React + TypeScript
-- Vite
-- Lucide icons
+## Trei întrebări
 
-## Run locally
+1. Cel mai ieftin produs exact: unde cumpăr produsul din listă la cel mai mic preț?
+2. Cea mai bună alternativă: ce produs comparabil, în același magazin, reduce costul fără un compromis important?
+3. Cel mai ieftin coș final: cât plătesc în total, cu alternative, promoții, SGR, transport și taxe?
 
-```bash
-npm install
-npm run dev
-```
+Întrebarea 3 este obiectivul.
 
-Production build:
+## Ordinea de construire
 
-```bash
-npm run build
-npm run preview
-```
+Un pas, un pull request. Nu sărim peste.
 
-## Product principles
+1. Regulile (acest fișier).
+2. Un produs și o ofertă, fără scrapere.
+3. Totalul coșului la un singur magazin.
+4. SGR ca linie separată.
+5. O singură sursă live.
 
-1. Optimize the total basket cost, not isolated item prices.
-2. Keep physical-store and delivery offers distinct unless verified to be equivalent.
-3. Include delivery fees and SGR deposits where applicable.
-4. Label verified prices, estimates and stale data clearly.
-5. Use authorized, transparent data sources; no Laraft integration.
-6. Add Supabase and Cloudflare only when the relevant feature is ready to be tested.
+Până la pasul 5 nu intră Monitorul Prețurilor, Apify, Sezamo, Freshful sau un optimizator pe mai multe magazine.
 
-## Roadmap
-
-1. Foundation and responsive budget planner
-2. Canonical food-product catalog and search
-3. Basket model and transparent cost calculations
-4. Legitimate offer data sources and freshness metadata
-5. Supabase persistence
-6. Cloudflare deployment and smoke tests
+Repo-ul vechi `beavy` rămâne neatins.
