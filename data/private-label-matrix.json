@@ -1,0 +1,1439 @@
+{
+  "schemaVersion": 1,
+  "mappingSemantics": "brandCandidates sunt candidați pentru identificarea SKU-urilor, nu confirmări că fiecare produs este listat sau disponibil în fiecare magazin. Confirmarea se face numai prin denumire, gramaj și datele ofertei.",
+  "retailers": [
+    {
+      "id": "lidl",
+      "name": "Lidl",
+      "brands": [
+        {
+          "name": "Pilos",
+          "categories": [
+            "lactate"
+          ]
+        },
+        {
+          "name": "Pikok",
+          "categories": [
+            "carne"
+          ]
+        },
+        {
+          "name": "Castello",
+          "categories": [
+            "lactate"
+          ],
+          "productIds": [
+            "telemea",
+            "cascaval"
+          ]
+        },
+        {
+          "name": "Cien",
+          "foodEligible": false,
+          "note": "Marcă pentru îngrijire personală/cosmetice; exclusă din catalogul alimentar."
+        }
+      ]
+    },
+    {
+      "id": "kaufland",
+      "name": "Kaufland",
+      "brands": [
+        {
+          "name": "K-Classic",
+          "categories": [
+            "general"
+          ]
+        },
+        {
+          "name": "K-Purland",
+          "categories": [
+            "carne"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mega-image",
+      "name": "Mega Image",
+      "brands": [
+        {
+          "name": "365",
+          "categories": [
+            "general"
+          ]
+        },
+        {
+          "name": "Delhaize",
+          "categories": [
+            "general"
+          ]
+        },
+        {
+          "name": "Gusturi Românești",
+          "categories": [
+            "lactate",
+            "panificatie",
+            "legume",
+            "fructe",
+            "carne"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "penny",
+      "name": "Penny",
+      "brands": [
+        {
+          "name": "Boni",
+          "categories": [
+            "general"
+          ]
+        },
+        {
+          "name": "San Terra",
+          "categories": [
+            "carne"
+          ]
+        },
+        {
+          "name": "Casa Gustului",
+          "categories": [
+            "lactate",
+            "panificatie",
+            "legume",
+            "fructe"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "carrefour",
+      "name": "Carrefour",
+      "brands": [
+        {
+          "name": "Simpl",
+          "categories": [
+            "general"
+          ]
+        },
+        {
+          "name": "Carrefour Classic",
+          "categories": [
+            "general"
+          ]
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "canonicalProductId": "lapte-proaspat",
+      "brandCandidates": {
+        "lidl": [
+          "Pilos"
+        ],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize",
+          "Gusturi Românești"
+        ],
+        "penny": [
+          "Boni",
+          "Casa Gustului"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "lapte-uht",
+      "brandCandidates": {
+        "lidl": [
+          "Pilos"
+        ],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize",
+          "Gusturi Românești"
+        ],
+        "penny": [
+          "Boni",
+          "Casa Gustului"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "iaurt-natural",
+      "brandCandidates": {
+        "lidl": [
+          "Pilos"
+        ],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize",
+          "Gusturi Românești"
+        ],
+        "penny": [
+          "Boni",
+          "Casa Gustului"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "iaurt-grecesc",
+      "brandCandidates": {
+        "lidl": [
+          "Pilos"
+        ],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize",
+          "Gusturi Românești"
+        ],
+        "penny": [
+          "Boni",
+          "Casa Gustului"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "smantana",
+      "brandCandidates": {
+        "lidl": [
+          "Pilos"
+        ],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize",
+          "Gusturi Românești"
+        ],
+        "penny": [
+          "Boni",
+          "Casa Gustului"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "unt",
+      "brandCandidates": {
+        "lidl": [
+          "Pilos"
+        ],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize",
+          "Gusturi Românești"
+        ],
+        "penny": [
+          "Boni",
+          "Casa Gustului"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "telemea",
+      "brandCandidates": {
+        "lidl": [
+          "Castello"
+        ],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize",
+          "Gusturi Românești"
+        ],
+        "penny": [
+          "Boni",
+          "Casa Gustului"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "cascaval",
+      "brandCandidates": {
+        "lidl": [
+          "Castello"
+        ],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize",
+          "Gusturi Românești"
+        ],
+        "penny": [
+          "Boni",
+          "Casa Gustului"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "branza-cottage",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize",
+          "Gusturi Românești"
+        ],
+        "penny": [
+          "Boni",
+          "Casa Gustului"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "oua",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize"
+        ],
+        "penny": [
+          "Boni"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "paine-alba",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize",
+          "Gusturi Românești"
+        ],
+        "penny": [
+          "Boni",
+          "Casa Gustului"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "paine-integrala",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize",
+          "Gusturi Românești"
+        ],
+        "penny": [
+          "Boni",
+          "Casa Gustului"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "faina-alba",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize",
+          "Gusturi Românești"
+        ],
+        "penny": [
+          "Boni",
+          "Casa Gustului"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "malai",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize",
+          "Gusturi Românești"
+        ],
+        "penny": [
+          "Boni",
+          "Casa Gustului"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "orez",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize",
+          "Gusturi Românești"
+        ],
+        "penny": [
+          "Boni",
+          "Casa Gustului"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "paste",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize",
+          "Gusturi Românești"
+        ],
+        "penny": [
+          "Boni",
+          "Casa Gustului"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "fulgi-ovaz",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize",
+          "Gusturi Românești"
+        ],
+        "penny": [
+          "Boni",
+          "Casa Gustului"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "cereale-porumb",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize",
+          "Gusturi Românești"
+        ],
+        "penny": [
+          "Boni",
+          "Casa Gustului"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "biscuiti-simpli",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize",
+          "Gusturi Românești"
+        ],
+        "penny": [
+          "Boni",
+          "Casa Gustului"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "zahar",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize"
+        ],
+        "penny": [
+          "Boni"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "ulei-floarea-soarelui",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize"
+        ],
+        "penny": [
+          "Boni"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "ulei-masline",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize"
+        ],
+        "penny": [
+          "Boni"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "sare",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize"
+        ],
+        "penny": [
+          "Boni"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "cafea-macinata",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize"
+        ],
+        "penny": [
+          "Boni"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "cacao",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize"
+        ],
+        "penny": [
+          "Boni"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "maioneza",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize"
+        ],
+        "penny": [
+          "Boni"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "ketchup",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize"
+        ],
+        "penny": [
+          "Boni"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "mustar",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize"
+        ],
+        "penny": [
+          "Boni"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "pasta-tomate",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize"
+        ],
+        "penny": [
+          "Boni"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "cartofi",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize",
+          "Gusturi Românești"
+        ],
+        "penny": [
+          "Boni",
+          "Casa Gustului"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "ceapa",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize",
+          "Gusturi Românești"
+        ],
+        "penny": [
+          "Boni",
+          "Casa Gustului"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "morcovi",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize",
+          "Gusturi Românești"
+        ],
+        "penny": [
+          "Boni",
+          "Casa Gustului"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "rosii",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize",
+          "Gusturi Românești"
+        ],
+        "penny": [
+          "Boni",
+          "Casa Gustului"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "castraveti",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize",
+          "Gusturi Românești"
+        ],
+        "penny": [
+          "Boni",
+          "Casa Gustului"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "ardei-gras",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize",
+          "Gusturi Românești"
+        ],
+        "penny": [
+          "Boni",
+          "Casa Gustului"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "varza",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize",
+          "Gusturi Românești"
+        ],
+        "penny": [
+          "Boni",
+          "Casa Gustului"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "salata-verde",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize",
+          "Gusturi Românești"
+        ],
+        "penny": [
+          "Boni",
+          "Casa Gustului"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "ciuperci",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize",
+          "Gusturi Românești"
+        ],
+        "penny": [
+          "Boni",
+          "Casa Gustului"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "usturoi",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize",
+          "Gusturi Românești"
+        ],
+        "penny": [
+          "Boni",
+          "Casa Gustului"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "mazare-congelata",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize"
+        ],
+        "penny": [
+          "Boni"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "amestec-legume-congelate",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize"
+        ],
+        "penny": [
+          "Boni"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "spanac-congelat",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize"
+        ],
+        "penny": [
+          "Boni"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "mere",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize",
+          "Gusturi Românești"
+        ],
+        "penny": [
+          "Boni",
+          "Casa Gustului"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "banane",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize",
+          "Gusturi Românești"
+        ],
+        "penny": [
+          "Boni",
+          "Casa Gustului"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "portocale",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize",
+          "Gusturi Românești"
+        ],
+        "penny": [
+          "Boni",
+          "Casa Gustului"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "lamai",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize",
+          "Gusturi Românești"
+        ],
+        "penny": [
+          "Boni",
+          "Casa Gustului"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "avocado",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize",
+          "Gusturi Românești"
+        ],
+        "penny": [
+          "Boni",
+          "Casa Gustului"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "piept-pui",
+      "brandCandidates": {
+        "lidl": [
+          "Pikok"
+        ],
+        "kaufland": [
+          "K-Purland",
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize",
+          "Gusturi Românești"
+        ],
+        "penny": [
+          "San Terra",
+          "Boni"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "pulpe-pui",
+      "brandCandidates": {
+        "lidl": [
+          "Pikok"
+        ],
+        "kaufland": [
+          "K-Purland",
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize",
+          "Gusturi Românești"
+        ],
+        "penny": [
+          "San Terra",
+          "Boni"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "carne-tocata",
+      "brandCandidates": {
+        "lidl": [
+          "Pikok"
+        ],
+        "kaufland": [
+          "K-Purland",
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize",
+          "Gusturi Românești"
+        ],
+        "penny": [
+          "San Terra",
+          "Boni"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "ceafa-porc",
+      "brandCandidates": {
+        "lidl": [
+          "Pikok"
+        ],
+        "kaufland": [
+          "K-Purland",
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize",
+          "Gusturi Românești"
+        ],
+        "penny": [
+          "San Terra",
+          "Boni"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "vita-pulpa",
+      "brandCandidates": {
+        "lidl": [
+          "Pikok"
+        ],
+        "kaufland": [
+          "K-Purland",
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize",
+          "Gusturi Românești"
+        ],
+        "penny": [
+          "San Terra",
+          "Boni"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "somon-file",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize"
+        ],
+        "penny": [
+          "Boni"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "ton-conserva",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize"
+        ],
+        "penny": [
+          "Boni"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "fasole-uscata",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize"
+        ],
+        "penny": [
+          "Boni"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "fasole-conserva",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize"
+        ],
+        "penny": [
+          "Boni"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "porumb-conserva",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize"
+        ],
+        "penny": [
+          "Boni"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "cartofi-prajiti-congelati",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize"
+        ],
+        "penny": [
+          "Boni"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "apa-minerala",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize"
+        ],
+        "penny": [
+          "Boni"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    },
+    {
+      "canonicalProductId": "ciocolata-menaj",
+      "brandCandidates": {
+        "lidl": [],
+        "kaufland": [
+          "K-Classic"
+        ],
+        "mega-image": [
+          "365",
+          "Delhaize"
+        ],
+        "penny": [
+          "Boni"
+        ],
+        "carrefour": [
+          "Simpl",
+          "Carrefour Classic"
+        ]
+      }
+    }
+  ]
+}
