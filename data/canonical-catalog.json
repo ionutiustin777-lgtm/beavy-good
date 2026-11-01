@@ -1,0 +1,487 @@
+{
+  "schemaVersion": 1,
+  "locale": "ro-RO",
+  "description": "Catalog canonic inițial de alimente uzuale. shelfLifeDays este o estimare orientativă pentru produs nedeschis, păstrat conform etichetei; nu înlocuiește termenul de valabilitate.",
+  "products": [
+    {
+      "id": "lapte-proaspat",
+      "name": "Lapte proaspăt 3,5%",
+      "category": "lactate",
+      "defaultUnit": "l",
+      "shelfLifeDays": 7,
+      "isPerishable": true
+    },
+    {
+      "id": "lapte-uht",
+      "name": "Lapte UHT 1,5%",
+      "category": "lactate",
+      "defaultUnit": "l",
+      "shelfLifeDays": 180,
+      "isPerishable": false
+    },
+    {
+      "id": "iaurt-natural",
+      "name": "Iaurt natural",
+      "category": "lactate",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 21,
+      "isPerishable": true
+    },
+    {
+      "id": "iaurt-grecesc",
+      "name": "Iaurt grecesc",
+      "category": "lactate",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 21,
+      "isPerishable": true
+    },
+    {
+      "id": "smantana",
+      "name": "Smântână 20%",
+      "category": "lactate",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 21,
+      "isPerishable": true
+    },
+    {
+      "id": "unt",
+      "name": "Unt 82%",
+      "category": "lactate",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 60,
+      "isPerishable": true
+    },
+    {
+      "id": "telemea",
+      "name": "Telemea",
+      "category": "lactate",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 30,
+      "isPerishable": true
+    },
+    {
+      "id": "cascaval",
+      "name": "Cașcaval",
+      "category": "lactate",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 45,
+      "isPerishable": true
+    },
+    {
+      "id": "branza-cottage",
+      "name": "Brânză cottage",
+      "category": "lactate",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 14,
+      "isPerishable": true
+    },
+    {
+      "id": "oua",
+      "name": "Ouă",
+      "category": "oua",
+      "defaultUnit": "buc",
+      "shelfLifeDays": 28,
+      "isPerishable": true
+    },
+    {
+      "id": "paine-alba",
+      "name": "Pâine albă",
+      "category": "panificatie",
+      "defaultUnit": "buc",
+      "shelfLifeDays": 3,
+      "isPerishable": true
+    },
+    {
+      "id": "paine-integrala",
+      "name": "Pâine integrală",
+      "category": "panificatie",
+      "defaultUnit": "buc",
+      "shelfLifeDays": 4,
+      "isPerishable": true
+    },
+    {
+      "id": "faina-alba",
+      "name": "Făină albă",
+      "category": "panificatie",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 365,
+      "isPerishable": false
+    },
+    {
+      "id": "malai",
+      "name": "Mălai",
+      "category": "panificatie",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 180,
+      "isPerishable": false
+    },
+    {
+      "id": "orez",
+      "name": "Orez",
+      "category": "panificatie",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 730,
+      "isPerishable": false
+    },
+    {
+      "id": "paste",
+      "name": "Paste făinoase",
+      "category": "panificatie",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 730,
+      "isPerishable": false
+    },
+    {
+      "id": "fulgi-ovaz",
+      "name": "Fulgi de ovăz",
+      "category": "panificatie",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 365,
+      "isPerishable": false
+    },
+    {
+      "id": "cereale-porumb",
+      "name": "Fulgi de porumb",
+      "category": "panificatie",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 365,
+      "isPerishable": false
+    },
+    {
+      "id": "biscuiti-simpli",
+      "name": "Biscuiți simpli",
+      "category": "panificatie",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 180,
+      "isPerishable": false
+    },
+    {
+      "id": "zahar",
+      "name": "Zahăr",
+      "category": "baza",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 730,
+      "isPerishable": false
+    },
+    {
+      "id": "ulei-floarea-soarelui",
+      "name": "Ulei de floarea-soarelui",
+      "category": "baza",
+      "defaultUnit": "l",
+      "shelfLifeDays": 365,
+      "isPerishable": false
+    },
+    {
+      "id": "ulei-masline",
+      "name": "Ulei de măsline",
+      "category": "baza",
+      "defaultUnit": "l",
+      "shelfLifeDays": 365,
+      "isPerishable": false
+    },
+    {
+      "id": "sare",
+      "name": "Sare",
+      "category": "baza",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 1825,
+      "isPerishable": false
+    },
+    {
+      "id": "cafea-macinata",
+      "name": "Cafea măcinată",
+      "category": "baza",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 180,
+      "isPerishable": false
+    },
+    {
+      "id": "cacao",
+      "name": "Cacao pudră",
+      "category": "baza",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 365,
+      "isPerishable": false
+    },
+    {
+      "id": "maioneza",
+      "name": "Maioneză",
+      "category": "condimente",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 120,
+      "isPerishable": false
+    },
+    {
+      "id": "ketchup",
+      "name": "Ketchup",
+      "category": "condimente",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 180,
+      "isPerishable": false
+    },
+    {
+      "id": "mustar",
+      "name": "Muștar",
+      "category": "condimente",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 180,
+      "isPerishable": false
+    },
+    {
+      "id": "pasta-tomate",
+      "name": "Pastă de tomate",
+      "category": "conserve",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 365,
+      "isPerishable": false
+    },
+    {
+      "id": "cartofi",
+      "name": "Cartofi",
+      "category": "legume",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 30,
+      "isPerishable": true
+    },
+    {
+      "id": "ceapa",
+      "name": "Ceapă",
+      "category": "legume",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 45,
+      "isPerishable": true
+    },
+    {
+      "id": "morcovi",
+      "name": "Morcovi",
+      "category": "legume",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 21,
+      "isPerishable": true
+    },
+    {
+      "id": "rosii",
+      "name": "Roșii",
+      "category": "legume",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 7,
+      "isPerishable": true
+    },
+    {
+      "id": "castraveti",
+      "name": "Castraveți",
+      "category": "legume",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 5,
+      "isPerishable": true
+    },
+    {
+      "id": "ardei-gras",
+      "name": "Ardei gras",
+      "category": "legume",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 7,
+      "isPerishable": true
+    },
+    {
+      "id": "varza",
+      "name": "Varză",
+      "category": "legume",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 30,
+      "isPerishable": true
+    },
+    {
+      "id": "salata-verde",
+      "name": "Salată verde",
+      "category": "legume",
+      "defaultUnit": "buc",
+      "shelfLifeDays": 4,
+      "isPerishable": true
+    },
+    {
+      "id": "ciuperci",
+      "name": "Ciuperci champignon",
+      "category": "legume",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 5,
+      "isPerishable": true
+    },
+    {
+      "id": "usturoi",
+      "name": "Usturoi",
+      "category": "legume",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 60,
+      "isPerishable": true
+    },
+    {
+      "id": "mazare-congelata",
+      "name": "Mazăre congelată",
+      "category": "congelate",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 365,
+      "isPerishable": true
+    },
+    {
+      "id": "amestec-legume-congelate",
+      "name": "Amestec de legume congelate",
+      "category": "congelate",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 365,
+      "isPerishable": true
+    },
+    {
+      "id": "spanac-congelat",
+      "name": "Spanac congelat",
+      "category": "congelate",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 365,
+      "isPerishable": true
+    },
+    {
+      "id": "mere",
+      "name": "Mere",
+      "category": "fructe",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 21,
+      "isPerishable": true
+    },
+    {
+      "id": "banane",
+      "name": "Banane",
+      "category": "fructe",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 7,
+      "isPerishable": true
+    },
+    {
+      "id": "portocale",
+      "name": "Portocale",
+      "category": "fructe",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 21,
+      "isPerishable": true
+    },
+    {
+      "id": "lamai",
+      "name": "Lămâi",
+      "category": "fructe",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 30,
+      "isPerishable": true
+    },
+    {
+      "id": "avocado",
+      "name": "Avocado",
+      "category": "fructe",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 5,
+      "isPerishable": true
+    },
+    {
+      "id": "piept-pui",
+      "name": "Piept de pui",
+      "category": "carne",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 2,
+      "isPerishable": true
+    },
+    {
+      "id": "pulpe-pui",
+      "name": "Pulpe de pui",
+      "category": "carne",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 2,
+      "isPerishable": true
+    },
+    {
+      "id": "carne-tocata",
+      "name": "Carne tocată porc-vită",
+      "category": "carne",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 1,
+      "isPerishable": true
+    },
+    {
+      "id": "ceafa-porc",
+      "name": "Ceafă de porc",
+      "category": "carne",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 3,
+      "isPerishable": true
+    },
+    {
+      "id": "vita-pulpa",
+      "name": "Carne de vită (pulpă)",
+      "category": "carne",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 3,
+      "isPerishable": true
+    },
+    {
+      "id": "somon-file",
+      "name": "File de somon",
+      "category": "peste",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 2,
+      "isPerishable": true
+    },
+    {
+      "id": "ton-conserva",
+      "name": "Ton conservă",
+      "category": "conserve",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 730,
+      "isPerishable": false
+    },
+    {
+      "id": "fasole-uscata",
+      "name": "Fasole boabe uscată",
+      "category": "conserve",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 730,
+      "isPerishable": false
+    },
+    {
+      "id": "fasole-conserva",
+      "name": "Fasole boabe conservă",
+      "category": "conserve",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 730,
+      "isPerishable": false
+    },
+    {
+      "id": "porumb-conserva",
+      "name": "Porumb dulce conservă",
+      "category": "conserve",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 730,
+      "isPerishable": false
+    },
+    {
+      "id": "cartofi-prajiti-congelati",
+      "name": "Cartofi prăjiți congelați",
+      "category": "congelate",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 365,
+      "isPerishable": true
+    },
+    {
+      "id": "apa-minerala",
+      "name": "Apă minerală",
+      "category": "bauturi",
+      "defaultUnit": "l",
+      "shelfLifeDays": 365,
+      "isPerishable": false
+    },
+    {
+      "id": "ciocolata-menaj",
+      "name": "Ciocolată menaj",
+      "category": "dulciuri",
+      "defaultUnit": "kg",
+      "shelfLifeDays": 365,
+      "isPerishable": false
+    }
+  ]
+}
