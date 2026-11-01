@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "status": "not_synced",
+  "generatedAt": "2026-11-01T15:46:00.000Z",
+  "maxAgeDays": 7,
+  "note": "Snapshot ini este doar inițializat. Nu conține prețuri reale și nu trebuie folosit la comparații până la primul import valid.",
+  "sources": {
+    "lidl-daily-xlsb": {
+      "status": "not_configured",
+      "lastSuccessfulSyncAt": null
+    },
+    "mega-image-graphql": {
+      "status": "not_configured",
+      "lastSuccessfulSyncAt": null
+    },
+    "monitorul-preturilor": {
+      "status": "deferred-by-repository-roadmap",
+      "lastSuccessfulSyncAt": null
+    }
+  },
+  "offers": []
+}
